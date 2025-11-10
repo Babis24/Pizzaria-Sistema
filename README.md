@@ -99,10 +99,10 @@ O código é organizado seguindo o padrão de design **Model-Service-Controller*
 6. Coloque a senha `Pizzaria@2025`
 7. Salve as alterações 
 8. Entre no servidor 
-    8.1. Entre em "Database"
-    8.2. Entre em "db_pizzaria"
-    8.3. Clique com o botão direito do mouse
-    8.4. Selecione o arquivo chamado "database" do repositório clonado
+9. Entre em "Database"
+10. Entre em "db_pizzaria"
+11. Clique com o botão direito do mouse
+12. Selecione o arquivo chamado "database" do repositório clonado
 
 **Para executar em modo de desenvolvimento (com recarregamento automático):**
 ```bash
@@ -110,18 +110,3 @@ npm run dev
 ```
 
 O servidor será iniciado em `http://localhost:3000`.
-
-
-
-
-
-
-
-hostname
-docker run -d `
---name sistema-pizzaria `
--e POSTGRES_USER=Pizzaria `
--e POSTGRES_PASSWORD=Pizzaria@2025 `
--e POSTGRES_DB=db_pizzaria `
--p 5432:5432 `
-postgres:latest 
